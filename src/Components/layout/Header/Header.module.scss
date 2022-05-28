@@ -1,0 +1,31 @@
+header {
+    width: 100%;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+
+    .headerNavbar {
+
+        ul {
+            display: flex;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        a {
+            display: block;
+            padding: 1.875rem;
+            color: #fff;
+        }
+
+        a:hover {
+            color: #ffbb33;
+        }
+    }
+
+}
