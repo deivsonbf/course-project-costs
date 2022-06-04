@@ -19,10 +19,10 @@ function App() {
       <Main custom="min-height">
         <Routes>
           <Route exact path="/" element={<Home />}></Route>
-          <Route exact path="/contact" element={<Contact />}></Route>
-          <Route exact path="/company" element={<Company />}></Route>
-          <Route exact path="/project" element={<Projects />}></Route>
-          <Route exact path="/newproject" element={<NewProject />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
+          <Route path="/company" element={<Company />}></Route>
+          <Route path="/project" element={<Projects />}></Route>
+          <Route path="/newproject" element={<NewProject />}></Route>
         </Routes>
       </Main>
 

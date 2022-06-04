@@ -1,0 +1,17 @@
+    .buttonControl {
+        display: flex;
+        justify-content: end;
+
+        .submitBtn {
+            padding: .3em .5em;
+            font-size: 1.25rem;
+            color: #fff;
+            background-color: #000;
+            transition: .5s;
+            cursor: pointer;
+
+            &:hover {
+                background-color: orange;
+            }
+        }
+    }

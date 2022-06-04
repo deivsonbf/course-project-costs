@@ -1,9 +1,10 @@
 .contentWrapper {
-    width: 100%;
+    width: 92%;
+    margin: 0 auto;
 }
 
 .min-height {
-    height: 75vh;
+    height: 77.9vh;
 }
 
 .start {
@@ -13,4 +14,5 @@
 .column {
     flex-direction: column;
     justify-content: start;
+    margin: 2em 0;
 }

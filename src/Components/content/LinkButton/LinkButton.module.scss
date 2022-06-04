@@ -1,0 +1,13 @@
+.linkbutton {
+    background-color: #ffbb33;
+    padding: 0.5em 1em;
+    border-radius: 3.5px;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+
+    &:hover {
+        background-color: #000;
+        color: #ffbb33;
+    }
+}
